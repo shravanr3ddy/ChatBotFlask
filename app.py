@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*", "methods": ["GET", "POST", "OPTIONS"], "allow_headers": ["Content-Type"]}})
 
 # Set the OpenAI API key (replace with your actual API key)
-api_key = "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"
+api_key = "YOUR_API_KEY"
 
 # Function to get chatbot response using the OpenAI API
 def chatbot_response(input_text, api_key):
