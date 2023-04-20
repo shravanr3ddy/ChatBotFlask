@@ -10,29 +10,27 @@ Make sure you have Python installed. If not, download and install Python from th
 
 Install the required packages, namely Flask, Flask-CORS, and OpenAI. You can do this using pip:
 
-**Copy code:**
+#### Copy code:
 
 
     pip install Flask Flask-CORS openai
 
-**API Key**:
+#### API Key:API Key:
 
 You need an API key from OpenAI to use their service. Replace the placeholder api_key value in the code with your actual API key:
 
-makefile
-Copy code
+#### Copy code
 ```python
 api_key = "your_actual_api_key_here"
 ```
-Save the code:
 
 Save the code in a file named app.py.
 
-**Run the server**:
+#### Run the server:Run the server:
 
 Open a terminal (or command prompt) and navigate to the directory where you saved app.py. Run the following command:
 
-Copy code
+#### Copy code
 
 
     python app.py
@@ -40,7 +38,7 @@ Copy code
 You should see output similar to this, indicating that the server is running:
 
 csharp
-Copy code
+#### Copy code
 
 
     Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
